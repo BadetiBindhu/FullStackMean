@@ -9,22 +9,22 @@
         .header-1{
             position:sticky;
             top:0px;
-            background-color:whitesmoke;
-            height:-300px;
+            left:0px;
+           background-color:rgb(231, 221, 221);
         }
         .logo {
             position: relative;
             display: inline;
             left: 200px;
-            top: 15px;
+            top: 25px;
         }
 
         .navbar {
             position: relative;
             left: 500px;
-            top: -50px;
+            top: -30px;
             width: 1000px;
-            padding: 5px;
+          
         }
 
         .nav-item {
@@ -34,23 +34,25 @@
 
         .nav-link {
             text-decoration: none;
-            color: black;
-            font-size: 20px;
+            color:white;
+            font-size: 23px;
 
         }
 
         .sub-link {
             text-decoration: none;
             color: black;
-            font-size: 18px;
+            font-size: 20px;
             margin-top: 5px;
+            letter-spacing:1px;
+            font-weight:500;
         }
 
         .dropdown-menu1 {
             display: none;
             padding: 10px;
             position: absolute;
-            left: 150px;
+            left: 170px;
             z-index: 1;
             border: 1px solid whitesmoke;
             background-color: white;
@@ -64,7 +66,7 @@
             display: none;
             padding: 10px;
             position: absolute;
-            left: 260px;
+            left: 280px;
             z-index: 1;
             border: 1px solid whitesmoke;
             background-color: white;
@@ -77,7 +79,7 @@
             display: none;
             padding: 10px;
             position: absolute;
-            left: 380px;
+            left: 430px;
             z-index: 1;
             border: 1px solid whitesmoke;
             background-color: white;
@@ -102,13 +104,22 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
              height: 100vh; /* Ensures the background covers full height */
-          
-        }
+             /* position:relative;
+             top:-50px; */
+          }
+          .main-img h1{
+            font-size:60px;
+            color:white;
+          }
+         .img-content{
+            margin-left:130px;
+         }
         
     </style>
 </head>
 
 <body>
+    <h1 align="center">Dr's Reddy Foundation Website</h1>
     <header class="header-1">
         <img class="logo" src="https://dqhc0lmzk7rhn.cloudfront.net/wp-content/uploads/2022/01/26153203/logo-30.png"
             width="200">
@@ -155,13 +166,14 @@
             </ul>
         </nav>
     </header>
-    <div class="main-img">
-        
-    </div>
-     <div class="main-img">
-        
-    </div>
-  
+    <section class="main-img">
+       <div class="img-content">
+         <h1>Innovate</h1>
+             <h1>Implement</h1>
+                  <h1>Impact.</h1>
+       </div>
+    </section>
+     
 </body>
 
 </html>
